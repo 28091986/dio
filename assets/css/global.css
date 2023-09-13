@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.clickButton {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+
+    color:  white;
+    background-color: rgb(104, 4, 4);
+    border: none;
+    border-radius: 1rem;
+
+    cursor: pointer; /* Cursor muda para a mãozinha quando passa por cima */
+  }
+
+.content {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
